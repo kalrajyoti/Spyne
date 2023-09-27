@@ -3,7 +3,7 @@ pipeline
     agent any
     
     tools{
-        maven 'maven'
+        maven 'MAVEN'
         }
 
     stages 
@@ -12,7 +12,7 @@ pipeline
         {
             steps
             {
-                 git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+                 git 'git@github.com:kalrajyoti/AutomationPOMSeriesFramework.git'
                  sh "mvn -Dmaven.test.failure.ignore=true clean package"
             }
             post 
@@ -38,7 +38,7 @@ pipeline
         stage('Regression Automation Tests') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/naveenanimation20/March2023POMSeriesFramework.git'
+                    git 'git@github.com:kalrajyoti/AutomationPOMSeriesFramework.git'
                     sh "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_regression.xml"
                     
                 }
@@ -82,7 +82,7 @@ pipeline
         stage('Sanity Automation Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/naveenanimation20/March2023POMSeriesFramework.git'
+                    git 'git@github.com:kalrajyoti/AutomationPOMSeriesFramework.git'
                     sh "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_sanity.xml"
                     
                 }
