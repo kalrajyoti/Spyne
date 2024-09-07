@@ -1,310 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="62.588" tests="28" errors="0" skipped="3" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="52.107" tests="4" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="17"/>
+    <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.4/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="/Users/jyoti.kalra/Desktop/spyne/target/test-classes:/Users/jyoti.kalra/Desktop/spyne/target/classes:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-java/4.12.0/selenium-java-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-api/4.12.0/selenium-api-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.12.0/selenium-chrome-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/jyoti.kalra/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/jyoti.kalra/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/jyoti.kalra/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/jyoti.kalra/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jyoti.kalra/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/jyoti.kalra/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/jyoti.kalra/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.12.0/selenium-chromium-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-json/4.12.0/selenium-json-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.12.0/selenium-manager-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.12.0/selenium-devtools-v114-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.12.0/selenium-devtools-v115-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v116/4.12.0/selenium-devtools-v116-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.12.0/selenium-devtools-v85-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.12.0/selenium-edge-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.12.0/selenium-firefox-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-http/4.12.0/selenium-http-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.12.0/selenium-ie-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.12.0/selenium-remote-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/jyoti.kalra/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/jyoti.kalra/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/jyoti.kalra/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/jyoti.kalra/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/jyoti.kalra/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-os/4.12.0/selenium-os-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.12.0/selenium-safari-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-support/4.12.0/selenium-support-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/jyoti.kalra/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/jyoti.kalra/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/jyoti.kalra/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/jyoti.kalra/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/jyoti.kalra/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/jyoti.kalra/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/ooxml-schemas/1.1/ooxml-schemas-1.1.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/jyoti.kalra/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:/Users/jyoti.kalra/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/Users/jyoti.kalra/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/jyoti.kalra/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/jyoti.kalra/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/jyoti.kalra/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/jyoti.kalra/.m2/repository/io/qameta/allure/allure-testng/2.23.0/allure-testng-2.23.0.jar:/Users/jyoti.kalra/.m2/repository/io/qameta/allure/allure-java-commons/2.23.0/allure-java-commons-2.23.0.jar:/Users/jyoti.kalra/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jyoti.kalra/.m2/repository/io/qameta/allure/allure-model/2.23.0/allure-model-2.23.0.jar:/Users/jyoti.kalra/.m2/repository/io/qameta/allure/allure-test-filter/2.23.0/allure-test-filter-2.23.0.jar:/Users/jyoti.kalra/.m2/repository/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar:/Users/jyoti.kalra/.m2/repository/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3.jar:/Users/jyoti.kalra/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
-    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.4/libexec/conf"/>
-    <property name="java.vm.specification.version" value="17"/>
     <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=firefox"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/21.0.3/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jyoti.kalra/Desktop/spyne/target/surefire/surefirebooter-20240907223019037_3.jar /Users/jyoti.kalra/Desktop/spyne/target/surefire 2024-09-07T22-30-18_831-jvmRun1 surefire-20240907223019037_1tmp surefire_0-20240907223019037_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.4/libexec"/>
+    <property name="surefire.test.class.path" value="/Users/jyoti.kalra/Desktop/spyne/target/test-classes:/Users/jyoti.kalra/Desktop/spyne/target/classes:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-java/4.12.0/selenium-java-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-api/4.12.0/selenium-api-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.12.0/selenium-chrome-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/jyoti.kalra/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/jyoti.kalra/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/jyoti.kalra/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/jyoti.kalra/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jyoti.kalra/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/jyoti.kalra/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/jyoti.kalra/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.12.0/selenium-chromium-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-json/4.12.0/selenium-json-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.12.0/selenium-manager-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.12.0/selenium-devtools-v114-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.12.0/selenium-devtools-v115-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v116/4.12.0/selenium-devtools-v116-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.12.0/selenium-devtools-v85-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.12.0/selenium-edge-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.12.0/selenium-firefox-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-http/4.12.0/selenium-http-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.12.0/selenium-ie-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.12.0/selenium-remote-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/jyoti.kalra/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/jyoti.kalra/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/jyoti.kalra/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/jyoti.kalra/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/jyoti.kalra/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-os/4.12.0/selenium-os-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.12.0/selenium-safari-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-support/4.12.0/selenium-support-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/jyoti.kalra/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/jyoti.kalra/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/jyoti.kalra/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/jyoti.kalra/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/jyoti.kalra/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/jyoti.kalra/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/ooxml-schemas/1.1/ooxml-schemas-1.1.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/jyoti.kalra/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:/Users/jyoti.kalra/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/Users/jyoti.kalra/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/jyoti.kalra/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/jyoti.kalra/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/jyoti.kalra/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/jyoti.kalra/.m2/repository/io/qameta/allure/allure-testng/2.23.0/allure-testng-2.23.0.jar:/Users/jyoti.kalra/.m2/repository/io/qameta/allure/allure-java-commons/2.23.0/allure-java-commons-2.23.0.jar:/Users/jyoti.kalra/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jyoti.kalra/.m2/repository/io/qameta/allure/allure-model/2.23.0/allure-model-2.23.0.jar:/Users/jyoti.kalra/.m2/repository/io/qameta/allure/allure-test-filter/2.23.0/allure-test-filter-2.23.0.jar:/Users/jyoti.kalra/.m2/repository/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar:/Users/jyoti.kalra/.m2/repository/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3.jar:/Users/jyoti.kalra/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/jyoti.kalra"/>
     <property name="user.language" value="en"/>
-    <property name="sun.stderr.encoding" value="UTF-8"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2022-01-18"/>
-    <property name="java.home" value="/usr/local/Cellar/openjdk/17.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/21.0.3/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jyoti.kalra/Desktop/spyne"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/jyoti.kalra/Desktop/spyne/target/surefire/surefirebooter-20240907223019037_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="17.0.2+0"/>
+    <property name="java.runtime.version" value="21.0.3"/>
     <property name="user.name" value="jyoti.kalra"/>
+    <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="13.5.2"/>
+    <property name="os.version" value="14.6.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="browser" value="firefox"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/jyoti.kalra/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/55/ljmy2rss21j12lhsy2g5ykc0mpf6lr/T/"/>
-    <property name="java.version" value="17.0.2"/>
-    <property name="user.dir" value="/Users/jyoti.kalra/Documents/GitHub/AutomationPOMSeriesFramework"/>
+    <property name="java.version" value="21.0.3"/>
+    <property name="user.dir" value="/Users/jyoti.kalra/Desktop/spyne"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/jyoti.kalra/Documents/GitHub/AutomationPOMSeriesFramework"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/jyoti.kalra/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
     <property name="java.vendor" value="Homebrew"/>
-    <property name="java.vm.version" value="17.0.2+0"/>
-    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.4/libexec/bin/m2.conf"/>
+    <property name="java.vm.version" value="21.0.3"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.4/libexec/lib/jansi-native"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="loginPageTitleTest" classname="com.qa.opencart.tests.LoginPageTest" time="0">
-    <skipped message="did not expect to find [Account Login123] but found [null]"/>
+  <testcase name="loginPageTitleTest" classname="com.qa.opencart.tests.HomePageTest" time="2.799">
     <system-out><![CDATA[...
 ... TestNG 7.0.0 by CÃ©dric Beust (cedric@beust.com)
 ...
 
-I am in onStart method Accounts Page Test
-I am in onStart method ProductInfo Page Test
-I am in onStart method Login Page Test
-I am in onStart method Register Page Test
-Test Suite started!
-Test Suite started!
-Test Suite started!
+I am in onStart method Home Page Test
+I am in onStart method Image Page Test
 env name is : null
 env name is : null
 no env is given...hence running it on QA env..by default
 no env is given...hence running it on QA env..by default
-env name is : null
-no env is given...hence running it on QA env..by default
-browser name is : firefox
-browser name is : firefox
-browser name is : firefox
-Running tests on GRID with browser: firefox
-Running tests on GRID with browser: firefox
-Running tests on GRID with browser: firefox
-Test Suite started!
-env name is : null
-no env is given...hence running it on QA env..by default
-browser name is : firefox
-Running tests on GRID with browser: firefox
+browser name is : chrome
+browser name is : chrome
 I am in onTestStart method loginPageTitleTest start
-loginPageTitleTest started!
-App creds are: janautomation@gmail.com:Selenium@12345
-reading the data from sheet: register
-I am in onTestStart method userRegisterTest start
-App creds are: janautomation@gmail.com:Selenium@12345
-userRegisterTest started!
-Account Login123 title value is not present...
-Login Page title is: null
-I am in onTestSkipped method loginPageTitleTest skipped
+I am in onTestStart method testValidFileUpload start
+Home Page title is: AI Image Upscaler: Upscale Your Image Quality with AI For Free
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Sep 26, 2023 11:29:26 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
-INFO: Using OpenTelemetry for tracing
+Sep 07, 2024 10:30:26 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+INFO: Driver path: /Users/jyoti.kalra/.cache/selenium/chromedriver/mac-x64/128.0.6613.119/chromedriver
+Sep 07, 2024 10:30:26 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+INFO: Browser path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Sep 07, 2024 10:30:26 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+INFO: Driver path: /Users/jyoti.kalra/.cache/selenium/chromedriver/mac-x64/128.0.6613.119/chromedriver
+Sep 07, 2024 10:30:26 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+INFO: Browser path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
 log4j:WARN Please initialize the log4j system properly.
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "Account Login123". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '17.0.2'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0.1, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:21659, moz:firefoxOptions: {binary: /opt/firefox-latest/firefox}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.10.104-linuxkit, moz:processID: 848, moz:profile: /tmp/rust_mozprofile17zK06, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://localhost:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 385acd4b-89da-4641-9ea9-d458db2ed709
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at com.qa.opencart.utils.ElementUtil.waitForTitleIs(ElementUtil.java:356)
-	at com.qa.opencart.pages.LoginPage.getLoginPageTitle(LoginPage.java:35)
-	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
+Sep 07, 2024 10:30:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 07, 2024 10:30:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 07, 2024 10:30:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Sep 07, 2024 10:30:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="loginPageTitleTest" classname="com.qa.opencart.tests.LoginPageTest" time="0">
-    <skipped message="did not expect to find [Account Login123] but found [null]"/>
-    <system-out><![CDATA[searchTest passed!
-I am in onTestStart method searchTest start
-searchTest started!
-Account Login123 title value is not present...
-Login Page title is: null
-I am in onTestSkipped method loginPageTitleTest skipped
+  <testcase name="loginPageURLTest" classname="com.qa.opencart.tests.HomePageTest" time="0.256">
+    <system-out><![CDATA[I am in onTestSuccess method loginPageTitleTest succeed
+I am in onTestStart method loginPageURLTest start
+HOME Page url is: https://www.spyne.ai/image-upscaler
 ]]></system-out>
-    <system-err><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "Account Login123". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '17.0.2'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0.1, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:21659, moz:firefoxOptions: {binary: /opt/firefox-latest/firefox}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.10.104-linuxkit, moz:processID: 848, moz:profile: /tmp/rust_mozprofile17zK06, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://localhost:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 385acd4b-89da-4641-9ea9-d458db2ed709
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at com.qa.opencart.utils.ElementUtil.waitForTitleIs(ElementUtil.java:356)
-	at com.qa.opencart.pages.LoginPage.getLoginPageTitle(LoginPage.java:35)
-	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-]]></system-err>
   </testcase>
-  <testcase name="loginPageTitleTest" classname="com.qa.opencart.tests.LoginPageTest" time="0">
-    <skipped message="did not expect to find [Account Login123] but found [null]"/>
-    <system-out><![CDATA[userRegisterTest passed!
-I am in onTestStart method userRegisterTest start
-userRegisterTest started!
-Account Login123 title value is not present...
-Login Page title is: null
-I am in onTestSkipped method loginPageTitleTest skipped
+  <testcase name="testValidFileUpload" classname="com.qa.opencart.tests.ImagePageTest" time="12.55">
+    <system-out><![CDATA[I am in onTestSuccess method loginPageURLTest succeed
+I am in onFinish method Home Page Test
 ]]></system-out>
-    <system-err><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "Account Login123". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '17.0.2'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0.1, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:21659, moz:firefoxOptions: {binary: /opt/firefox-latest/firefox}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.10.104-linuxkit, moz:processID: 848, moz:profile: /tmp/rust_mozprofile17zK06, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://localhost:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 385acd4b-89da-4641-9ea9-d458db2ed709
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at com.qa.opencart.utils.ElementUtil.waitForTitleIs(ElementUtil.java:356)
-	at com.qa.opencart.pages.LoginPage.getLoginPageTitle(LoginPage.java:35)
-	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
+    <system-err><![CDATA[Sep 07, 2024 10:31:00 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
 ]]></system-err>
   </testcase>
-  <testcase name="loginPageTitleTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.529">
-    <failure message="did not expect to find [Account Login123] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [Account Login123] but found [null]
-	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:28)
-</failure>
-    <system-out><![CDATA[userRegisterTest passed!
-I am in onTestStart method userRegisterTest start
-userRegisterTest started!
-Account Login123 title value is not present...
-Login Page title is: null
-I am in onTestFailure method loginPageTitleTest failed
-Screenshot captured for test case:loginPageTitleTest
+  <testcase name="testImageUpScaling" classname="com.qa.opencart.tests.ImagePageTest" time="0.135">
+    <system-out><![CDATA[I am in onTestSuccess method testValidFileUpload succeed
+I am in onTestStart method testImageUpScaling start
 ]]></system-out>
-    <system-err><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "Account Login123". Current title: "Account Login" (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '17.0.2'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0.1, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:21659, moz:firefoxOptions: {binary: /opt/firefox-latest/firefox}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.10.104-linuxkit, moz:processID: 848, moz:profile: /tmp/rust_mozprofile17zK06, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://localhost:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 385acd4b-89da-4641-9ea9-d458db2ed709
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at com.qa.opencart.utils.ElementUtil.waitForTitleIs(ElementUtil.java:356)
-	at com.qa.opencart.pages.LoginPage.getLoginPageTitle(LoginPage.java:35)
-	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-]]></system-err>
   </testcase>
-  <testcase name="accPageHeadersCountTest" classname="com.qa.opencart.tests.AccountsPageTest" time="0.593"/>
-  <testcase name="accPageHeadersTest" classname="com.qa.opencart.tests.AccountsPageTest" time="0.579"/>
-  <testcase name="accPageTitleTest" classname="com.qa.opencart.tests.AccountsPageTest" time="0.067"/>
-  <testcase name="logoutLinkExistTest" classname="com.qa.opencart.tests.AccountsPageTest" time="0.203"/>
-  <testcase name="searchTest" classname="com.qa.opencart.tests.AccountsPageTest" time="0.295"/>
-  <testcase name="searchTest" classname="com.qa.opencart.tests.AccountsPageTest" time="2.017"/>
-  <testcase name="searchTest" classname="com.qa.opencart.tests.AccountsPageTest" time="0.998"/>
-  <testcase name="productHeaderTest" classname="com.qa.opencart.tests.ProductInfoTest" time="2.659"/>
-  <testcase name="productHeaderTest" classname="com.qa.opencart.tests.ProductInfoTest" time="1.386"/>
-  <testcase name="productHeaderTest" classname="com.qa.opencart.tests.ProductInfoTest" time="0.629"/>
-  <testcase name="productHeaderTest" classname="com.qa.opencart.tests.ProductInfoTest" time="2.697"/>
-  <testcase name="productHeaderTest" classname="com.qa.opencart.tests.ProductInfoTest" time="3.782"/>
-  <testcase name="userRegisterTest" classname="com.qa.opencart.tests.RegisterPageTest" time="2.27"/>
-  <testcase name="userRegisterTest" classname="com.qa.opencart.tests.RegisterPageTest" time="3.746"/>
-  <testcase name="userRegisterTest" classname="com.qa.opencart.tests.RegisterPageTest" time="1.54"/>
-  <testcase name="loginPageURLTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.127"/>
-  <testcase name="isForgotPwdLinkExistTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.492"/>
-  <testcase name="loginTest" classname="com.qa.opencart.tests.LoginPageTest" time="2.345"/>
-  <testcase name="productImagesCountTest" classname="com.qa.opencart.tests.ProductInfoTest" time="2.415"/>
-  <testcase name="productImagesCountTest" classname="com.qa.opencart.tests.ProductInfoTest" time="2.979"/>
-  <testcase name="productImagesCountTest" classname="com.qa.opencart.tests.ProductInfoTest" time="2.005"/>
-  <testcase name="productImagesCountTest" classname="com.qa.opencart.tests.ProductInfoTest" time="2.8"/>
-  <testcase name="productImagesCountTest" classname="com.qa.opencart.tests.ProductInfoTest" time="2.696"/>
-  <testcase name="productInfoTest" classname="com.qa.opencart.tests.ProductInfoTest" time="3.007"/>
 </testsuite>

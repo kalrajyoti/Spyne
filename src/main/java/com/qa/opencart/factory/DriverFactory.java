@@ -1,5 +1,6 @@
 package com.qa.opencart.factory;
 
+import java.awt.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -22,210 +23,190 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 /**
- * 
  * @author naveenautomationlabs
- *
  */
 public class DriverFactory {
-	WebDriver driver;
-	Properties prop;
-	OptionsManager optionsManager;
-	public static String highlight;
-	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
-	private static final String DEFAULT_PROPERTIES = "config/qa.config.properties";
-	/**
-	 * This is used to initiliaze the driver
-	 * 
-	 * @param browserName
-	 * @return it returns driver
-	 */
-	public WebDriver initDriver(Properties prop) {
-		String browserName = System.getProperty(("browser"))!=null?System.getProperty("browser"): prop.getProperty("browser");
+    WebDriver driver;
+    Properties prop;
+    OptionsManager optionsManager;
+    public static String highlight;
+    public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
+    private static final String DEFAULT_PROPERTIES = "src/test/resources/config/qa.config.properties";
 
-		// String browserName = System.getProperty("browser");
-		System.out.println("browser name is : " + browserName);
+    /**
+     * This is used to initiliaze the driver
+     *
+     * @param prop
+     * @return it returns driver
+     */
+    public WebDriver initDriver(Properties prop) {
+        String browserName = System.getProperty(("browser")) != null ? System.getProperty("browser") : prop.getProperty("browser");
 
-		highlight = prop.getProperty("highlight");// "true"
+        // String browserName = System.getProperty("browser");
+        System.out.println("browser name is : " + browserName);
 
-		optionsManager = new OptionsManager(prop);
+        highlight = prop.getProperty("highlight");// "true"
 
-		switch (browserName.toLowerCase()) {
+        optionsManager = new OptionsManager(prop);
 
-		case "chrome":
+        switch (browserName.toLowerCase()) {
 
-			if (Boolean.parseBoolean(prop.getProperty("remote"))) {
-				// run tests on remote-grid
-				init_remoteDriver("chrome");
-			} else {
-				// run tests on local
-				//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/src/main/java/com/qa/opencart/drivers/chromedriver.exe");
-				tlDriver.set(new ChromeDriver(optionsManager.getChromeOptions()));
-			}
-			break;
+            case "chrome":
 
-		case "firefox":
+                if (Boolean.parseBoolean(prop.getProperty("remote"))) {
+                    // run tests on remote-grid
+                    init_remoteDriver("chrome");
+                } else {
+                    // run tests on local
+					tlDriver.set(new ChromeDriver(optionsManager.getChromeOptions()));
+                }
+                break;
 
-			if (Boolean.parseBoolean(prop.getProperty("remote"))) {
-				// run tests on remote-grid
-				init_remoteDriver("firefox");
-			} else {
-				// run tests on local
-				tlDriver.set(new FirefoxDriver(optionsManager.getFirefoxOptions()));
-			}
+            case "firefox":
 
-			break;
-		case "edge":
+                if (Boolean.parseBoolean(prop.getProperty("remote"))) {
+                    // run tests on remote-grid
+                    init_remoteDriver("firefox");
+                } else {
+                    // run tests on local
+                    tlDriver.set(new FirefoxDriver(optionsManager.getFirefoxOptions()));
+                }
 
-			if (Boolean.parseBoolean(prop.getProperty("remote"))) {
-				// run tests on remote-grid
-				init_remoteDriver("edge");
-			} else {
-				// run tests on local
-				tlDriver.set(new EdgeDriver(optionsManager.getEdgeOptions()));
-			}
+                break;
+            case "edge":
 
-			break;
-		case "safari":
-			tlDriver.set(new SafariDriver());
-			break;
+                if (Boolean.parseBoolean(prop.getProperty("remote"))) {
+                    // run tests on remote-grid
+                    init_remoteDriver("edge");
+                } else {
+                    // run tests on local
+                    tlDriver.set(new EdgeDriver(optionsManager.getEdgeOptions()));
+                }
 
-		default:
-			System.out.println("Plz pass the right browser...." + browserName);
-			break;
-		}
+                break;
+            case "safari":
+                tlDriver.set(new SafariDriver());
+                break;
 
-		getDriver().manage().window().maximize();
-		getDriver().manage().deleteAllCookies();
-		getDriver().get(prop.getProperty("url"));
-		return getDriver();
-	}
+            default:
+                System.out.println("Plz pass the right browser...." + browserName);
+                break;
+        }
 
-	private void init_remoteDriver(String browserName) {
+        getDriver().manage().window().maximize();
+        getDriver().manage().deleteAllCookies();
+        getDriver().get(prop.getProperty("url"));
+        return getDriver();
+    }
 
-		System.out.println("Running tests on GRID with browser: " + browserName);
-		System.out.println("Grid URL Is ...." +prop.getProperty("huburl"));
-		try {
-			switch (browserName.toLowerCase()) {
-			case "chrome":
-				ChromeOptions chromeOptions =new ChromeOptions();
-				System.out.println("Grid URL Is ...." +prop.getProperty("huburl"));
-				tlDriver.set(
-						new RemoteWebDriver(new URL(prop.getProperty("huburl")),chromeOptions));
-				//Capabilities actualCapabilities = ((RemoteWebDriver) getDriver()).getCapabilities();
-				break;
-			case "firefox":
-				tlDriver.set(
-						new RemoteWebDriver(new URL(prop.getProperty("huburl")), optionsManager.getFirefoxOptions()));
-				break;
-			case "edge":
-				tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), optionsManager.getEdgeOptions()));
-				break;
+    private void init_remoteDriver(String browserName) {
 
-			default:
-				System.out.println("Wrong browser info....can not run on grid remote machine....");
-				break;
-			}
+        System.out.println("Running tests on GRID with browser: " + browserName);
+        System.out.println("Grid URL Is ...." + prop.getProperty("huburl"));
+        try {
+            switch (browserName.toLowerCase()) {
+                case "chrome":
+                    ChromeOptions chromeOptions = new ChromeOptions();
+                    System.out.println("Grid URL Is ...." + prop.getProperty("huburl"));
+                    tlDriver.set(
+                        new RemoteWebDriver(new URL(prop.getProperty("huburl")), chromeOptions));
+                    //Capabilities actualCapabilities = ((RemoteWebDriver) getDriver()).getCapabilities();
+                    break;
+                case "firefox":
+                    tlDriver.set(
+                        new RemoteWebDriver(new URL(prop.getProperty("huburl")), optionsManager.getFirefoxOptions()));
+                    break;
+                case "edge":
+                    tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), optionsManager.getEdgeOptions()));
+                    break;
 
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		}
+                default:
+                    System.out.println("Wrong browser info....can not run on grid remote machine....");
+                    break;
+            }
 
-	}
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
 
-	public static WebDriver getDriver() {
-		return tlDriver.get();
-	}
+    }
 
-	/**
-	 * This method is used to init the properties
-	 * 
-	 * @return
-	 */
-	public Properties initProp() {
+    public static WebDriver getDriver() {
+        return tlDriver.get();
+    }
 
-		// mvn clean install -Denv="qa"
-		FileInputStream ip = null;
-		prop = new Properties();
+    /**
+     * This method is used to init the properties
+     *
+     * @return
+     */
+    public Properties initProp() {
 
-		String envName = System.getProperty("env");
-		System.out.println("env name is : " + envName);
+        // mvn clean install -Denv="qa"
+        FileInputStream ip = null;
+        prop = new Properties();
 
-//		// check for any override
-//		for(String key: prop.stringPropertyNames()){
-//			if(System.getProperties().containsKey(key)){
-//				prop.setProperty(key, System.getProperty(key));
-//			}
-//		}
-//
-//		// print
-//		System.out.println("Test Properties");
-//		System.out.println("-----------------");
-//		for(String key: prop.stringPropertyNames()){
-//			System.out.println("{}={}"+ key + prop.getProperty(key));
-//		}
-//		System.out.println("-----------------");
+        String envName = System.getProperty("env");
+        System.out.println("env name is : " + envName);
+        try {
+            if (envName == null) {
+                System.out.println("no env is given...hence running it on QA env..by default");
+                ip = new FileInputStream(DEFAULT_PROPERTIES);
+            } else {
 
+                switch (envName.toLowerCase().trim()) {
+                    case "qa":
+                        ip = new FileInputStream("./src/test/resources/config/qa.config.properties");
+                        break;
+                    case "dev":
+                        ip = new FileInputStream("./src/test/resources/config/dev.config.properties");
+                        break;
+                    case "stage":
+                        ip = new FileInputStream("./src/test/resources/config/stage.config.properties");
+                        break;
+                    case "uat":
+                        ip = new FileInputStream("./src/test/resources/config/uat.config.properties");
+                        break;
+                    case "prod":
+                        ip = new FileInputStream("./src/test/resources/config/config.properties");
+                        break;
 
+                    default:
+                        System.out.println("please pass the right env name...." + envName);
+                        break;
+                }
 
-		try {
-			if (envName == null) {
-				System.out.println("no env is given...hence running it on QA env..by default");
-				ip = new FileInputStream(DEFAULT_PROPERTIES);
-			} else {
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
 
-				switch (envName.toLowerCase().trim()) {
-				case "qa":
-					ip = new FileInputStream("./src/test/resources/config/qa.config.properties");
-					break;
-				case "dev":
-					ip = new FileInputStream("./src/test/resources/config/dev.config.properties");
-					break;
-				case "stage":
-					ip = new FileInputStream("./src/test/resources/config/stage.config.properties");
-					break;
-				case "uat":
-					ip = new FileInputStream("./src/test/resources/config/uat.config.properties");
-					break;
-				case "prod":
-					ip = new FileInputStream("./src/test/resources/config/config.properties");
-					break;
+        try {
+            prop.load(ip);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return prop;
+    }
 
-				default:
-					System.out.println("please pass the right env name...." + envName);
-					break;
-				}
+    /**
+     * take screenshot
+     */
+    public static String getScreenshot(String methodName) {
+        File srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
 
-			}
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
+        String path = System.getProperty("user.dir") + "/screenshot/" + methodName + "_" + System.currentTimeMillis()
+            + ".png";
+        System.out.println("user directory: " + System.getProperty("user.dir"));
+        System.out.println("screenshot path: " + path);
+        File destination = new File(path);
+        try {
+            FileHandler.copy(srcFile, destination);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-		try {
-			prop.load(ip);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return prop;
-	}
-
-	/**
-	 * take screenshot
-	 */
-	public static String getScreenshot(String methodName) {
-		File srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
-
-		String path = System.getProperty("user.dir") + "/screenshot/" + methodName + "_" + System.currentTimeMillis()
-				+ ".png";
-		System.out.println("user directory: " + System.getProperty("user.dir"));
-		System.out.println("screenshot path: " + path);
-		File destination = new File(path);
-		try {
-			FileHandler.copy(srcFile, destination);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-		return path;
-	}
+        return path;
+    }
 
 }

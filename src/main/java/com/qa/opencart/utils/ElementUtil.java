@@ -604,6 +604,11 @@ public class ElementUtil {
 		String flag = wait.until(ExpectedConditions.jsReturnsValue("return document.readyState == 'complete'")).toString();
 		return Boolean.parseBoolean(flag);
 	}
+	public void waitForElementToDisapper(By locator, int timeOut) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut));
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
+
+	}
 	
 	
 }

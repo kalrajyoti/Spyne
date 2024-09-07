@@ -6,8 +6,8 @@ import java.util.List;
 public class AppConstants {
 	
 	
-	public static final String LOGIN_PAGE_TITLE = "Account Login";
-	public static final String LOGIN_PAGE_URL_FRACTION = "route=account/login";
+	public static final String HOME_PAGE_TITLE = "AI Image Upscaler: Upscale Your Image Quality with AI For Free";
+	public static final String HOME_PAGE_URL_FRACTION = "image-upscaler";
 
 
 	public static final String ACCOUNTS_PAGE_TITLE = "My Account";
@@ -25,7 +25,7 @@ public class AppConstants {
 	
 	//*******************default time out values************//
 	public static final int SHORT_TIME_OUT = 5;
-	public static final int MEDIUM_TIME_OUT = 10;
+	public static final int MEDIUM_TIME_OUT = 50;
 	public static final int LONG_TIME_OUT = 15;
 	
 	

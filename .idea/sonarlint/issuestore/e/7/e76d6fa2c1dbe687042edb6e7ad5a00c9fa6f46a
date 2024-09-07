@@ -1,55 +1,55 @@
 
 –
-java:S1104 "UMake highlight a static final constant or non-public and provide accessors if needed.(şèúÿÿÿÿJ$3716896f-40d2-4406-b3ac-c5b7ce14b0d6
+java:S1104 "UMake highlight a static final constant or non-public and provide accessors if needed.(şèúÿÿÿÿJ$b2726b24-bf7f-4ac1-b596-970edb285ad1
 
-java:S1104!"TMake tlDriver a static final constant or non-public and provide accessors if needed.(Íá¸ßJ$d88dd94c-a619-48c2-b8aa-49431359fbab
+java:S1104!"TMake tlDriver a static final constant or non-public and provide accessors if needed.(Íá¸ßJ$ea790c7d-5108-4d94-8177-5902297acdeb
 •
-java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(Íá¸ßJ$d689fcf5-0b77-409b-a5dc-1575c8d98d49
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(Íá¸ßJ$9535692b-b3b1-4023-b289-01b18dadc3a6
 p
-java:S1444 "/Make this "public static highlight" field final(şèúÿÿÿÿJ$1b0f18eb-7697-4cee-b64f-c46e8f0648a1
+java:S1444 "/Make this "public static highlight" field final(şèúÿÿÿÿJ$28fe885d-cc8d-4229-a275-a012b2ed6149
 j
-java:S1444!".Make this "public static tlDriver" field final(Íá¸ßJ$2d882983-4b87-4160-a05e-921733b5e0bd
+java:S1444!".Make this "public static tlDriver" field final(Íá¸ßJ$e402fdd9-b85c-4be3-9838-37bb1a38f042
 ƒ
-java:S11926"GDefine a constant instead of duplicating this literal "chrome" 3 times.(‚ÄœÅJ$9d81becd-3289-4c6a-802f-253f477eb7f7
+java:S11926"GDefine a constant instead of duplicating this literal "chrome" 3 times.(‚ÄœÅJ$82ac97f5-fb44-4cd2-8655-20244bb8996f
 „
-java:S1192A"HDefine a constant instead of duplicating this literal "firefox" 3 times.(Äºı¢J$121df14e-d3c9-444b-ae17-fcc69f8a53e7
+java:S1192A"HDefine a constant instead of duplicating this literal "firefox" 3 times.(Äºı¢J$44cb25c7-63b4-412d-a2eb-ba11f5460129
 ƒ
-java:S11928"GDefine a constant instead of duplicating this literal "remote" 3 times.(½Ä­ÖJ$e2e17ad3-fd66-44c8-b8ea-a6230a3d6aa3
+java:S11928"GDefine a constant instead of duplicating this literal "remote" 3 times.(½Ä­ÖJ$b7b96285-e205-4b8e-845f-b30082f6c4be
 ƒ
-java:S1192i"GDefine a constant instead of duplicating this literal "huburl" 5 times.(œ¨ĞéJ$7f62384b-6c19-4ccb-b1ba-97a8987bf886
+java:S1192i"GDefine a constant instead of duplicating this literal "huburl" 5 times.(œ¨ĞéJ$5401ffcd-64d6-4c50-8992-16e82fbd54e0
 ‹
-java:S1192+"HDefine a constant instead of duplicating this literal "browser" 3 times.(®õæ¿8¿ÖÃòà1J$1141b371-c2db-41cf-a381-9884ab177590
+java:S1192+"HDefine a constant instead of duplicating this literal "browser" 3 times.(®õæ¿8¿ÖÃòà1J$5eb47691-86f8-4c8d-ab7e-0ce122d8d403
 
-java:S2095š"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ôï¢ºşÿÿÿÿJ$989b20bf-7217-467d-a296-93501ec10102
+java:S2095«"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ãßıÆüÿÿÿÿJ$51bea4f6-0895-496a-af2d-a3726d172d61
 
-java:S2095Ÿ"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¡Ú‡“üÿÿÿÿJ$26bc0bc3-7346-441c-9a8e-647874d5b2e6
+java:S2095š"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ôï¢ºşÿÿÿÿJ$814caad5-29c4-4933-8060-f824ddef0c72
 
-java:S2095¨"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Æóµ³ıÿÿÿÿJ$4d371df2-5130-456c-a214-779e16eeee9c
+java:S2095¨"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Æóµ³ıÿÿÿÿJ$30a7c659-6dbe-4d59-8c8b-0a1a3ac2d69e
 Š
-java:S2095¢"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¿ù“ñJ$6c41fc3a-e036-4a0c-96c9-30f840ff29ea
+java:S2095¢"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¿ù“ñJ$dea2f220-56ec-474f-9780-0252060c99f0
 
-java:S2095«"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ãßıÆüÿÿÿÿJ$f7b17ce0-7b1b-47ab-9c2d-0a2ba29d1fb6
+java:S2095¥"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Û¾ŸÿüÿÿÿÿJ$72506350-bf4b-425c-a528-eab84d6137af
 
-java:S2095¥"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Û¾ŸÿüÿÿÿÿJ$aa1a0186-8795-4b0f-89ef-812a30fcd264
-k	java:S106."+Replace this use of System.out by a logger.(ì´¼ÀşÿÿÿÿJ$4f1a5736-0347-41f2-ba23-4ea37917f4bb
-w	java:S125-"<This block of commented-out lines of code should be removed.(ÿ€ ğJ$996e212c-f53b-4e9f-97a4-70ed419f4605
+java:S2095Ÿ"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¡Ú‡“üÿÿÿÿJ$29a291e1-4227-4da3-8baf-863ae3a10251
+k	java:S106."+Replace this use of System.out by a logger.(ì´¼ÀşÿÿÿÿJ$598859d1-5a89-4f59-bac1-423fce6efd51
+w	java:S125-"<This block of commented-out lines of code should be removed.(ÿ€ ğJ$cf38e5fd-8eb4-4a7f-8533-f9ea9bcfdf46
 r
-java:S26960"6Make the enclosing method "static" or remove this set.(³™ç¢J$f8620524-80ac-4792-a22d-821e0fcdb0b5
-k	java:S106\"+Replace this use of System.out by a logger.(•›êÿøÿÿÿÿJ$f345c6ff-6fc9-46ec-bc71-81fe6b61df46
-‰	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ûœÍJ$1c443a2b-0c46-4684-aefb-4edfbc801e52
-k	java:S106h"+Replace this use of System.out by a logger.(ïı¡ÛúÿÿÿÿJ$30a416f1-0e48-45ff-9809-d38f663a3211
-f	java:S106i"+Replace this use of System.out by a logger.(œ¨ĞéJ$3ef67566-83b9-428e-babf-11375d18a968
-f	java:S106n"+Replace this use of System.out by a logger.(œ¨ĞéJ$d684560e-e333-4326-9062-88f6099f1496
-w	java:S125q"<This block of commented-out lines of code should be removed.(Ãı©J$3c17ac3a-d905-4fa8-b1db-cbddabeab6b6
-k	java:S106|"+Replace this use of System.out by a logger.(¥ù°øÿÿÿÿJ$4d8048cd-a821-43a3-9a6e-abec7bb6aaa8
-l	java:S106–"+Replace this use of System.out by a logger.(‰¶¤†ûÿÿÿÿJ$746899f7-94c3-4f77-8f10-defafce7984d
-l	java:S106™"+Replace this use of System.out by a logger.(çÑ¨ûÿÿÿÿJ$1b13178d-7401-4b6b-83bf-e648c9248a1d
-l	java:S106¯"+Replace this use of System.out by a logger.(µÄª€şÿÿÿÿJ$bc53792d-db60-44b8-827f-884303f2243a
-f	java:S106È"+Replace this use of System.out by a logger.(ú‚Î]J$3e124740-f32a-477a-a712-40cef3cd0d54
-g	java:S106É"+Replace this use of System.out by a logger.(‰™šJ$64528402-d01a-4368-91f8-ffad226484b6
+java:S26960"6Make the enclosing method "static" or remove this set.(³™ç¢J$37178839-f031-4b23-8748-ece5cbd259a8
+k	java:S106\"+Replace this use of System.out by a logger.(•›êÿøÿÿÿÿJ$2cb18e83-2a50-4e26-a4ca-d18a57d12f11
+‰	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ûœÍJ$094841f6-d13c-4e92-ba71-42760e9b72f0
+k	java:S106h"+Replace this use of System.out by a logger.(ïı¡ÛúÿÿÿÿJ$d954910e-1838-4c32-9a17-b5349bd2aadc
+f	java:S106i"+Replace this use of System.out by a logger.(œ¨ĞéJ$3db9d52b-3c27-4f1a-9b19-9d0cd5bf215f
+f	java:S106n"+Replace this use of System.out by a logger.(œ¨ĞéJ$aae4c6ff-d381-44fe-bc92-67b1145488ed
+w	java:S125q"<This block of commented-out lines of code should be removed.(Ãı©J$f65e1b49-aa50-49f1-8d28-40ed0748de53
+k	java:S106|"+Replace this use of System.out by a logger.(¥ù°øÿÿÿÿJ$c271ec73-6e5e-4c67-a2c5-dc726d9740a8
+l	java:S106–"+Replace this use of System.out by a logger.(‰¶¤†ûÿÿÿÿJ$b8cc31f9-02d4-4a1f-9915-a5d10ef28336
+l	java:S106™"+Replace this use of System.out by a logger.(çÑ¨ûÿÿÿÿJ$df4acf58-aa46-4527-8f4f-a2b50fe3b44d
+l	java:S106¯"+Replace this use of System.out by a logger.(µÄª€şÿÿÿÿJ$f6372212-6b10-4b38-b63f-9968f63dafca
+f	java:S106È"+Replace this use of System.out by a logger.(ú‚Î]J$b389a20b-4bf8-4710-bea1-64d7d161a948
+g	java:S106É"+Replace this use of System.out by a logger.(‰™šJ$5fea8303-879c-4fdd-a50c-4203bd041cd2
 h
-java:S1128"%Remove this unused import 'java.awt'.(ï´µ©8½ÖÃòà1J$c380fc42-211a-4ad5-aabd-fe570eee3670
+java:S1128"%Remove this unused import 'java.awt'.(ï´µ©8½ÖÃòà1J$b19b2f62-170f-45ae-85fe-997711b7ba7c
 „
-java:S1128"ARemove this unused import 'com.qa.opencart.utils.ResourceLoader'.(Ñ¿ï˜8½ÖÃòà1J$0077e4b0-5d30-4c94-8f33-1aad9a5ede98
+java:S1128"ARemove this unused import 'com.qa.opencart.utils.ResourceLoader'.(Ñ¿ï˜8½ÖÃòà1J$4e0163f2-dd46-49c7-9139-b352dd14d1a0
 €
-java:S1128"=Remove this unused import 'org.openqa.selenium.Capabilities'.(ÿ·šâ8¾ÖÃòà1J$8d7386be-8c51-427f-aef4-cc3fe808f726
+java:S1128"=Remove this unused import 'org.openqa.selenium.Capabilities'.(ÿ·šâ8¾ÖÃòà1J$01a676af-6f6a-4018-b17a-20caded1cb47

@@ -1,6 +1,7 @@
 package com.qa.opencart.utils;
 
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -106,7 +107,6 @@ public class JavaScriptUtil {
 	 */
 	public void zoomFirefox(String zoomPercentage) {
 		String zoom = "document.body.style.MozTransform = 'scale("+zoomPercentage+")'";
-		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript(zoom);
 	}
 	
@@ -124,7 +124,6 @@ public class JavaScriptUtil {
 	}
 
 	private void changeColor(String color, WebElement element) {
-		JavascriptExecutor js = ((JavascriptExecutor) driver);
 		js.executeScript("arguments[0].style.backgroundColor = '" + color + "'", element);
 		//G->P->G->P
 
@@ -132,6 +131,11 @@ public class JavaScriptUtil {
 			Thread.sleep(20);
 		} catch (InterruptedException e) {
 		}
+	}
+	public void unhideChooseButton(String loctor){
+		js.executeScript("arguments[0].setAttribute('style', arguments[1])",driver.findElement(By.xpath(loctor)), "0");
+		js.executeScript("arguments[0].setAttribute('class', arguments[1])", driver.findElement(By.xpath(loctor)), "a");
+
 	}
 
 }

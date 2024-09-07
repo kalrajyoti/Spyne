@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 28, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 62.588 s <<< FAILURE! - in TestSuite
-loginPageTitleTest(com.qa.opencart.tests.LoginPageTest)  Time elapsed: 0.529 s  <<< FAILURE!
-java.lang.AssertionError: did not expect to find [Account Login123] but found [null]
-	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:28)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.11 s -- in TestSuite

@@ -1,6 +1,4 @@
-/Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/pages/SearchResultsPage.java
 /Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/listeners/ExtentReportListener.java
-/Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/pages/ProductInfoPage.java
 /Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/factory/OptionsManager.java
 /Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/errors/AppError.java
 /Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/utils/ElementUtil.java
@@ -10,9 +8,7 @@
 /Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/utils/JavaScriptUtil.java
 /Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/pages/HomePage.java
 /Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/pages/ImagePage.java
-/Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/pages/RegisterPage.java
 /Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/factory/DriverFactory.java
-/Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/pages/AccountsPage.java
 /Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/listeners/TestAllureListener.java
 /Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/constants/AppConstants.java
 /Users/jyoti.kalra/Desktop/spyne/src/main/java/com/qa/opencart/listeners/Retry.java

@@ -10,7 +10,7 @@ pipeline
         {
             steps
             {
-                 git 'git@github.com:kalrajyoti/AutomationPOMSeriesFramework.git'
+                 git 'git@github.com:kalrajyoti/Spyne.git'
                  sh "mvn -Dmaven.test.failure.ignore=true clean package"
             }
             post 
