@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="52.107" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="90.126" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/21.0.3/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/jyoti.kalra/Desktop/spyne/target/surefire/surefirebooter-20240907223019037_3.jar /Users/jyoti.kalra/Desktop/spyne/target/surefire 2024-09-07T22-30-18_831-jvmRun1 surefire-20240907223019037_1tmp surefire_0-20240907223019037_2tmp"/>
+    <property name="sun.java.command" value="/Users/jyoti.kalra/Desktop/spyne/target/surefire/surefirebooter-20240907225114925_3.jar /Users/jyoti.kalra/Desktop/spyne/target/surefire 2024-09-07T22-51-14_681-jvmRun1 surefire-20240907225114925_1tmp surefire_0-20240907225114925_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/jyoti.kalra/Desktop/spyne/target/test-classes:/Users/jyoti.kalra/Desktop/spyne/target/classes:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-java/4.12.0/selenium-java-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-api/4.12.0/selenium-api-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.12.0/selenium-chrome-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/jyoti.kalra/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/jyoti.kalra/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/jyoti.kalra/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/jyoti.kalra/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jyoti.kalra/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/jyoti.kalra/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/jyoti.kalra/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.12.0/selenium-chromium-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-json/4.12.0/selenium-json-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.12.0/selenium-manager-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.12.0/selenium-devtools-v114-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.12.0/selenium-devtools-v115-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v116/4.12.0/selenium-devtools-v116-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.12.0/selenium-devtools-v85-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.12.0/selenium-edge-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.12.0/selenium-firefox-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-http/4.12.0/selenium-http-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.12.0/selenium-ie-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.12.0/selenium-remote-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/jyoti.kalra/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/jyoti.kalra/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/jyoti.kalra/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/jyoti.kalra/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/jyoti.kalra/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/jyoti.kalra/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/jyoti.kalra/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-os/4.12.0/selenium-os-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.12.0/selenium-safari-driver-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/seleniumhq/selenium/selenium-support/4.12.0/selenium-support-4.12.0.jar:/Users/jyoti.kalra/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/jyoti.kalra/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/jyoti.kalra/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/jyoti.kalra/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/jyoti.kalra/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/jyoti.kalra/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/jyoti.kalra/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/ooxml-schemas/1.1/ooxml-schemas-1.1.jar:/Users/jyoti.kalra/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/jyoti.kalra/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:/Users/jyoti.kalra/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/Users/jyoti.kalra/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/jyoti.kalra/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/jyoti.kalra/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/jyoti.kalra/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/jyoti.kalra/.m2/repository/io/qameta/allure/allure-testng/2.23.0/allure-testng-2.23.0.jar:/Users/jyoti.kalra/.m2/repository/io/qameta/allure/allure-java-commons/2.23.0/allure-java-commons-2.23.0.jar:/Users/jyoti.kalra/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jyoti.kalra/.m2/repository/io/qameta/allure/allure-model/2.23.0/allure-model-2.23.0.jar:/Users/jyoti.kalra/.m2/repository/io/qameta/allure/allure-test-filter/2.23.0/allure-test-filter-2.23.0.jar:/Users/jyoti.kalra/.m2/repository/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar:/Users/jyoti.kalra/.m2/repository/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3.jar:/Users/jyoti.kalra/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/jyoti.kalra/Desktop/spyne/target/surefire/surefirebooter-20240907223019037_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/jyoti.kalra/Desktop/spyne/target/surefire/surefirebooter-20240907225114925_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.3"/>
@@ -59,57 +59,47 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="loginPageTitleTest" classname="com.qa.opencart.tests.HomePageTest" time="2.799">
+  <testcase name="loginPageTitleTest" classname="com.qa.opencart.tests.HomePageTest" time="4.765">
     <system-out><![CDATA[...
 ... TestNG 7.0.0 by CÃ©dric Beust (cedric@beust.com)
 ...
 
 I am in onStart method Home Page Test
-I am in onStart method Image Page Test
-env name is : null
 env name is : null
 no env is given...hence running it on QA env..by default
-no env is given...hence running it on QA env..by default
-browser name is : chrome
 browser name is : chrome
 I am in onTestStart method loginPageTitleTest start
-I am in onTestStart method testValidFileUpload start
-Home Page title is: AI Image Upscaler: Upscale Your Image Quality with AI For Free
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Sep 07, 2024 10:30:26 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+Sep 07, 2024 10:51:27 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 INFO: Driver path: /Users/jyoti.kalra/.cache/selenium/chromedriver/mac-x64/128.0.6613.119/chromedriver
-Sep 07, 2024 10:30:26 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-INFO: Browser path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-Sep 07, 2024 10:30:26 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-INFO: Driver path: /Users/jyoti.kalra/.cache/selenium/chromedriver/mac-x64/128.0.6613.119/chromedriver
-Sep 07, 2024 10:30:26 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+Sep 07, 2024 10:51:27 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
 INFO: Browser path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
 log4j:WARN Please initialize the log4j system properly.
-Sep 07, 2024 10:30:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sep 07, 2024 10:51:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 128
-Sep 07, 2024 10:30:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 128
-Sep 07, 2024 10:30:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 128.0.6613.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Sep 07, 2024 10:30:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Sep 07, 2024 10:51:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 128.0.6613.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="loginPageURLTest" classname="com.qa.opencart.tests.HomePageTest" time="0.256">
+  <testcase name="loginPageURLTest" classname="com.qa.opencart.tests.HomePageTest" time="0.232">
     <system-out><![CDATA[I am in onTestSuccess method loginPageTitleTest succeed
 I am in onTestStart method loginPageURLTest start
-HOME Page url is: https://www.spyne.ai/image-upscaler
 ]]></system-out>
   </testcase>
-  <testcase name="testValidFileUpload" classname="com.qa.opencart.tests.ImagePageTest" time="12.55">
+  <testcase name="testValidFileUpload" classname="com.qa.opencart.tests.ImagePageTest" time="30.734">
     <system-out><![CDATA[I am in onTestSuccess method loginPageURLTest succeed
 I am in onFinish method Home Page Test
+I am in onStart method Image Page Test
+env name is : null
+no env is given...hence running it on QA env..by default
+browser name is : chrome
+I am in onTestStart method testValidFileUpload start
 ]]></system-out>
-    <system-err><![CDATA[Sep 07, 2024 10:31:00 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Sep 07, 2024 10:51:54 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
@@ -127,9 +117,17 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
+Sep 07, 2024 10:51:55 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+INFO: Driver path: /Users/jyoti.kalra/.cache/selenium/chromedriver/mac-x64/128.0.6613.119/chromedriver
+Sep 07, 2024 10:51:55 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+INFO: Browser path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Sep 07, 2024 10:52:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 07, 2024 10:52:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testImageUpScaling" classname="com.qa.opencart.tests.ImagePageTest" time="0.135">
+  <testcase name="testImageUpScaling" classname="com.qa.opencart.tests.ImagePageTest" time="0.16">
     <system-out><![CDATA[I am in onTestSuccess method testValidFileUpload succeed
 I am in onTestStart method testImageUpScaling start
 ]]></system-out>
