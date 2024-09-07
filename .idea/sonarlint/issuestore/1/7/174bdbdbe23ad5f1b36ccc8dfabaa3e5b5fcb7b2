@@ -1,0 +1,17 @@
+
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(œ›ïïüÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(œ˜¤¹
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(ÆÀûý
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(ü³Çÿ
+M	java:S106="9Replace this use of System.out or System.err by a logger.(‚³Í<
+g
+java:S11922"QDefine a constant instead of duplicating this literal "Test Case Name- " 4 times.(¾º†Ô
+h
+java:S11923"MDefine a constant instead of duplicating this literal "
+ Priority- " 4 times.(ØÈåëùÿÿÿÿ
+f
+java:S11922"PDefine a constant instead of duplicating this literal "
+ Description- " 4 times.(¾º†Ô
+d
+java:S11923"IDefine a constant instead of duplicating this literal "
+ Date- " 4 times.(ØÈåëùÿÿÿÿ

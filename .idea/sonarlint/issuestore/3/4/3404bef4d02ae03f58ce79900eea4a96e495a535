@@ -1,0 +1,15 @@
+
+@	java:S106*"+Replace this use of System.out by a logger.(ï¼Å–
+Q	java:S125+"<This block of commented-out lines of code should be removed.(‰Ú¹å
+@	java:S1060"+Replace this use of System.out by a logger.(Ù¸Çâ
+@	java:S1065"+Replace this use of System.out by a logger.( éÉÛ
+E	java:S106:"+Replace this use of System.out by a logger.(ÔÂé³ûÿÿÿÿ
+S
+java:S1854@"=Remove this useless assignment to local variable "testClass".(Êåõ€
+E	java:S106?"+Replace this use of System.out by a logger.(‚¬ã—üÿÿÿÿ
+D
+java:S1481@".Remove this unused "testClass" local variable.(Êåõ€
+V	java:S125A"<This block of commented-out lines of code should be removed.(‚˜þ’þÿÿÿÿ
+E	java:S106D"+Replace this use of System.out by a logger.(…ã¹Ôýÿÿÿÿ
+E	java:S106M"+Replace this use of System.out by a logger.(êÚË“ûÿÿÿÿ
+E	java:S106R"+Replace this use of System.out by a logger.(‘¶°…øÿÿÿÿ
